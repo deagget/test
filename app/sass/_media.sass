@@ -1,0 +1,140 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1001px)
+	/**/
+	// Typography
+	h1
+		font-size: 3.5em
+	h2
+		font-size: 1.575em
+	h3
+		font-size: 1.362em
+	h4
+		font-size: 1.112em
+
+	section .s-content .section-title p
+		font-size: 15px
+	// ^ Typography ^
+
+.no-padding
+	padding: 0 5px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	h1
+		font-size: 3em
+
+	header
+		.h-topline
+			.logo
+				position: absolute
+				top: -25px
+				left: 10px
+
+			.main-nav
+				margin-top: 30px
+				line-height: 5
+
+		.h-content
+			.button
+				margin: 12px 0
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	/**/
+	.s-contact
+		.map
+			.button
+				margin-bottom: 40px
+
+	footer
+		p
+			text-align: center
+		.social
+			display: block
+			width: 250px
+			margin: 0 auto
+			li
+				margin-right: 0
+				margin: 0 5px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	header
+		position: relative
+		.h-topline
+			position: fixed
+			top: 0
+			left: 0
+			width: 100%
+			background-color: #fff
+			z-index: 99
+
+			.main-nav
+				margin-top: 15px
+				line-height: 8
+				a
+					font-size: 0.6em
+
+		.h-content
+			margin-top: 10vh
+			padding-top: 60vh
+		
+	section
+		.s-content
+			padding: 50px 0
+			background-repeat: repeat-y
+			.section-title
+				margin-bottom: 50px
+
+	.s-about .history .events li .year
+		margin: 2.2em 0
+
+	.s-practise .spheres .item .fa
+		font-size: 1.5em
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	header
+		.h-topline
+			min-height: 30px
+			.logo
+				margin-top: 5px
+			.main-nav
+				display: none
+		.h-content
+			padding-top: 50vh
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
